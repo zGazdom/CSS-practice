@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-1, .content-2{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1{
+    border: 2px solid red;
+    width: 25%;
+}
+
+.content-2{
+    border: 2px solid yellow;
+    width: 75%;
+}
+
+.content-3{
+    border: 2px solid green;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.content-4{
+    border: 2px solid blue;
+    height: 100px;
+}
