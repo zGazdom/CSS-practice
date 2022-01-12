@@ -27,7 +27,14 @@
 
 }
 
-.content-4{
-    border: 2px solid blue;
-    height: 100px;
+.content-4 {
+  display: flex;
+  border: 2px solid blue;
+  height: 100px;
+  justify-content: center;
+}
+
+.content-4 img {
+  height: 100%;
+  width: auto;
 }
